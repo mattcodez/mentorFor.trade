@@ -2,9 +2,17 @@
   text-align: center;
 }
 
+.main__title {
+  /*mobile only*/
+  text-align: center;
+}
+
 @media (min-width: 550px) {
   .intro{
     margin-top: 25%
+  }
+  .main__title {
+    text-align: left;
   }
 }
 
